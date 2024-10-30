@@ -578,3 +578,21 @@ widget you create.
 2024-10-30 14:05:13,696 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
 2024-10-30 14:05:13,697 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
 2024-10-30 14:05:14,156 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 14:05:15,550 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 14:05:17,205 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:18,795 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:20,216 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:21,717 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:23,276 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:24,687 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:05:24,692 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 14:05:24,705 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_akshaykumarbedre.bm@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-30 14:05:35,887 - src.services.email_sender.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 14:05:39,295 - src.services.email_sender.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 14:05:39,309 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_akshaykumarbedre.bm@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
