@@ -1,0 +1,370 @@
+2024-10-06 15:00:10,383 - __main__.NavigationScraper - INFO - Scraping navigation links from https://firstlaunch.in/
+2024-10-06 15:00:10,856 - __main__.NavigationScraper - INFO - Found 5 navigation links
+2024-10-06 15:00:12,243 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:00:15,216 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:18,693 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:23,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:27,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:32,282 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:38,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:00:38,048 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:00:38,048 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:00:41,734 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 15:02:35,498 - __main__.NavigationScraper - INFO - Scraping navigation links from https://firstlaunch.in/
+2024-10-06 15:02:35,911 - __main__.NavigationScraper - INFO - Found 5 navigation links
+2024-10-06 15:02:36,438 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:02:38,928 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:02:42,407 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:02:46,345 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:02:50,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:02:50,026 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:02:50,027 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:02:53,573 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 15:13:09,090 - __main__ - CRITICAL - Application failed to start: LangChainEmailGenerator.__init__() missing 1 required positional argument: 'llm_option'
+2024-10-06 15:17:03,513 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 15:17:03,513 - __main__.NavigationScraper - INFO - Scraping navigation links from https://haaps.in/
+2024-10-06 15:17:03,792 - __main__.NavigationScraper - INFO - Found 11 navigation links
+2024-10-06 15:17:04,394 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:17:06,131 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:17:06,142 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:17:06,142 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:17:09,258 - __main__.GmailSender - ERROR - Failed to send email to crackyou5@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-20c13988ecbsm23178935ad.268 - gsmtp')
+2024-10-06 15:17:22,870 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 15:17:22,870 - __main__.NavigationScraper - INFO - Scraping navigation links from https://haaps.in/
+2024-10-06 15:17:23,108 - __main__.NavigationScraper - INFO - Found 11 navigation links
+2024-10-06 15:17:23,729 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:17:25,650 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:17:25,653 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:17:25,653 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:17:29,474 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 15:18:43,004 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 15:18:43,006 - __main__.NavigationScraper - INFO - Scraping navigation links from https://haaps.in/
+2024-10-06 15:18:43,283 - __main__.NavigationScraper - INFO - Found 11 navigation links
+2024-10-06 15:18:43,905 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:18:46,128 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:18:46,139 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:18:46,140 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:18:50,188 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 15:21:36,952 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 15:21:36,953 - __main__.NavigationScraper - INFO - Scraping navigation links from https://haaps.in/
+2024-10-06 15:21:37,199 - __main__.NavigationScraper - INFO - Found 11 navigation links
+2024-10-06 15:21:37,833 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 15:21:39,410 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 15:21:39,412 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 15:21:39,413 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 15:21:43,049 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:20:27,282 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:20:27,283 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:20:29,770 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:20:37,924 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:20:39,973 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:42,807 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:46,018 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:49,133 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:52,130 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:55,277 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:20:58,798 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:01,690 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:04,803 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:08,576 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:12,571 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:17,133 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:21,171 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:25,165 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:21:25,273 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:21:25,274 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:21:29,449 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:25:13,109 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:25:13,110 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:25:14,864 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:25:18,329 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:25:20,582 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:23,461 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:26,420 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:26,497 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:25:26,498 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:25:30,100 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:25:36,416 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:25:36,417 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:25:38,601 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:25:42,539 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:25:45,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:48,548 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:51,470 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:25:51,484 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:25:51,485 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:25:55,117 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:26:23,085 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:26:23,086 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:26:25,001 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:26:30,823 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:26:33,597 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:36,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:39,963 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:43,143 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:48,441 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:52,845 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:56,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:26:59,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:03,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:06,503 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:14,971 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:23,668 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:28,880 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:34,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:27:34,365 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:27:34,366 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:27:38,138 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:30:45,627 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:30:45,628 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:30:47,368 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:30:50,365 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:30:55,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:30:58,606 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:31:01,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:31:01,615 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:31:01,616 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:31:04,995 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:35:19,176 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:35:19,177 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:35:21,224 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:35:24,784 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:35:27,304 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:35:29,873 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:35:32,503 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:35:32,570 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:35:32,571 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:35:36,031 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:36:17,199 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:36:17,200 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:36:19,225 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:36:25,368 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:36:27,468 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:30,361 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:33,659 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:36,639 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:39,182 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:42,983 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:46,201 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:49,537 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:53,304 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:36:57,185 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:37:01,424 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:37:05,904 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:37:10,420 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:37:14,552 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:37:14,720 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:37:14,721 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:37:18,639 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:38:02,162 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:38:02,162 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:38:04,375 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:38:09,932 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:38:12,282 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:14,981 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:17,902 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:20,956 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:24,263 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:27,464 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:31,419 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:35,241 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:39,112 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:42,990 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:47,087 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:51,389 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:38:56,609 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:39:00,716 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:39:00,850 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:39:00,851 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:39:04,590 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:39:39,113 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:39:39,114 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:39:41,146 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:39:47,039 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:39:49,117 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:39:52,024 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:39:55,126 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:39:58,291 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:01,941 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:05,470 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:09,007 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:12,795 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:16,279 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:19,971 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:23,669 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:27,850 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:28,424 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-06 17:40:28,425 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2024-10-06 17:40:37,167 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:37,702 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-06 17:40:37,703 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2024-10-06 17:40:43,516 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:40:43,564 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:40:43,565 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:40:47,567 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:42:09,569 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-06 17:42:09,570 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:42:11,542 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:42:17,650 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:42:20,313 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:23,311 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:26,532 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:26,576 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-3.5 Turbo
+2024-10-06 17:42:26,577 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:42:28,548 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:42:29,514 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:32,700 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:34,923 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:42:36,112 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:38,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:39,624 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:41,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:43,508 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:45,752 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:46,981 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:50,182 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:50,394 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:53,748 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:53,903 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:57,908 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:42:57,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:01,151 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:01,702 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:04,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:05,543 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:05,699 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:43:05,700 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:43:09,588 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:10,008 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:43:13,544 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:17,429 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:21,113 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:25,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:29,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:43:29,552 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:43:29,553 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:43:32,972 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:44:36,978 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:44:36,978 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:44:39,325 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:44:45,277 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:44:47,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:44:50,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:44:53,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:44:55,761 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:44:58,487 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:02,815 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:05,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:09,039 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:12,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:15,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:17,806 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:21,063 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:24,087 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:26,727 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:45:26,744 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:45:26,745 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:45:30,265 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:50:19,044 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:50:19,044 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:50:20,949 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:50:27,519 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:50:31,906 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:36,038 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:39,588 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:42,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:45,434 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:49,213 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:53,310 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:50:56,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:02,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:06,620 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:09,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:13,476 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:16,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:19,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:51:19,907 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:51:19,908 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:51:23,685 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:54:59,061 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:54:59,061 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:55:01,406 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:55:04,733 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:55:08,360 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:55:12,588 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:55:16,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:55:16,722 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:55:16,723 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-06 17:55:20,507 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-06 17:55:58,431 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-06 17:55:58,432 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.brandlution.com/
+2024-10-06 17:56:00,342 - __main__.NavigationScraper - INFO - Found 56 navigation links
+2024-10-06 17:56:05,431 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-06 17:56:14,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:18,758 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:22,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:25,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:29,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:35,529 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:40,854 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:46,998 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:51,769 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-06 17:56:51,824 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-06 17:56:51,825 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-07 19:08:11,737 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-07 19:08:11,738 - __main__.NavigationScraper - INFO - Scraping navigation links from https://haaps.in/
+2024-10-07 19:08:12,348 - __main__.NavigationScraper - INFO - Found 11 navigation links
+2024-10-07 19:08:13,195 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-07 19:08:24,353 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:08:29,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:08:29,039 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-07 19:08:29,040 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-07 19:08:34,984 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-07 19:52:13,722 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-07 19:52:13,722 - __main__.NavigationScraper - INFO - Scraping navigation links from https://akshaykumarbedre.github.io?
+2024-10-07 19:52:14,332 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-07 19:52:14,847 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-07 19:52:20,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:52:27,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:52:27,825 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-07 19:52:27,826 - __main__.GmailSender - INFO - Attempting to send email to crackyou@gmail.com
+2024-10-07 19:52:32,268 - __main__.GmailSender - INFO - Successfully sent email to crackyou@gmail.com
+2024-10-07 19:54:53,975 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-07 19:54:53,976 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.pw.live
+2024-10-07 19:54:54,360 - __main__.NavigationScraper - INFO - Found 7 navigation links
+2024-10-07 19:54:56,056 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-07 19:55:06,161 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:12,304 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:15,655 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-07 19:55:15,656 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.pw.live
+2024-10-07 19:55:16,070 - __main__.NavigationScraper - INFO - Found 7 navigation links
+2024-10-07 19:55:17,601 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-07 19:55:17,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:22,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:29,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:29,607 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:29,641 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-07 19:55:29,642 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-07 19:55:34,279 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-07 19:55:34,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:41,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:55:53,239 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:56:00,227 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-07 19:56:00,268 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-07 19:56:00,268 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-07 19:56:03,686 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-08 17:40:43,377 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 17:40:43,378 - __main__.NavigationScraper - INFO - Scraping navigation links from job4freshers.co.in
+2024-10-08 17:40:43,378 - __main__.NavigationScraper - ERROR - Error scraping job4freshers.co.in: Invalid URL 'job4freshers.co.in': No scheme supplied. Perhaps you meant https://job4freshers.co.in?
+2024-10-08 17:40:43,379 - __main__.ColdEmailAutomation - ERROR - Error processing target job4freshers.co.in: Invalid URL 'job4freshers.co.in': No scheme supplied. Perhaps you meant https://job4freshers.co.in?
+2024-10-08 17:40:51,886 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 17:40:51,886 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 17:40:52,594 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 17:40:53,567 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 17:40:58,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:41:04,332 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:41:13,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:41:19,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 17:41:19,596 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 17:41:19,596 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-08 17:41:23,711 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com

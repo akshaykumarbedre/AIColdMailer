@@ -1,0 +1,580 @@
+2024-10-08 18:24:58,328 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:24:58,328 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:24:58,843 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:24:59,679 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:25:13,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:25:39,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:25:58,293 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:26:17,533 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:26:17,535 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:26:17,536 - __main__.ColdEmailAutomation - ERROR - Error processing target  https://job4freshers.co.in?: 'dict' object has no attribute 'subject'
+2024-10-08 18:39:29,403 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:39:29,405 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:39:29,931 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:39:30,791 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:39:45,459 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:40:02,211 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:40:23,442 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:40:51,703 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:40:51,706 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:41:13,368 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-08 18:41:16,075 - __main__.GmailSender - ERROR - Failed to send email to crackyou5@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2e20aebb7e5sm7704306a91.18 - gsmtp')
+2024-10-08 18:42:11,340 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-08 18:42:15,354 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-08 18:44:21,923 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-08 18:44:21,924 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:44:22,317 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:44:23,105 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:44:23,868 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-10-08 18:44:23,869 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-08 18:44:23,870 - __main__.ColdEmailAutomation - ERROR - Error processing target  https://job4freshers.co.in?: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-08 18:45:04,631 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:45:04,632 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:45:05,194 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:45:06,054 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:45:28,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:45:56,661 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:14,866 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:46:14,867 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:46:15,241 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:46:16,062 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:46:20,679 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:20,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:26,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:32,180 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:38,240 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:38,297 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:46:38,542 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:46:38,545 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:46:53,103 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-08 18:46:53,266 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-08 18:46:57,416 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-08 18:46:57,420 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-08 18:47:27,453 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:47:27,453 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:47:27,829 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:47:28,886 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:47:33,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:47:38,742 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:47:47,884 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:47:54,421 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:47:54,455 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:48:13,380 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-08 18:48:17,387 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-08 18:48:47,317 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:48:47,318 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:48:47,688 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:48:48,506 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:48:53,622 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:48:58,510 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:06,253 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:17,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:17,251 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:49:17,275 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:49:17,276 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.pw.live
+2024-10-08 18:49:17,781 - __main__.NavigationScraper - INFO - Found 7 navigation links
+2024-10-08 18:49:19,550 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:49:25,386 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:32,341 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:38,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:48,021 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:54,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:49:54,807 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:49:54,822 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-08 18:50:53,011 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-08 18:50:53,171 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:50:53,172 - __main__.NavigationScraper - INFO - Scraping navigation links from  https://job4freshers.co.in?
+2024-10-08 18:50:54,179 - __main__.NavigationScraper - INFO - Found 0 navigation links
+2024-10-08 18:50:55,607 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:51:01,444 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:51:07,578 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:51:15,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:51:33,303 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:51:33,337 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:51:33,363 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-08 18:51:33,364 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.pw.live
+2024-10-08 18:51:33,729 - __main__.NavigationScraper - INFO - Found 7 navigation links
+2024-10-08 18:51:35,285 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-08 18:51:41,619 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:51:48,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:52:02,790 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:52:08,900 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:52:15,218 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-08 18:52:15,253 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-08 18:52:15,266 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:15:37,680 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:15:51,225 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:15:59,358 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-11 13:16:03,512 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-11 13:16:03,517 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:16:42,968 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-11 13:16:47,367 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-11 13:17:52,485 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:17:52,485 - __main__.NavigationScraper - INFO - Scraping navigation links from https://thriveagency.com/digital-marketing-services/
+2024-10-11 13:17:52,793 - __main__.NavigationScraper - ERROR - Error scraping https://thriveagency.com/digital-marketing-services/: 403 Client Error: Forbidden for url: https://thriveagency.com/digital-marketing-services/
+2024-10-11 13:17:53,010 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:17:57,138 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:17:57,163 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-11 13:18:47,465 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:18:47,465 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:18:48,774 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:18:53,510 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:18:59,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:19:03,594 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:19:07,634 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:19:07,672 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-11 13:19:07,683 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:19:32,207 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-11 13:19:36,279 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-11 13:19:36,284 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:40:11,897 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-11 13:40:11,898 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:40:12,838 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:40:15,157 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:40:16,273 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-10-11 13:40:16,274 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:40:16,275 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.jio.com: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:42:08,233 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-11 13:42:08,233 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:42:09,104 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:42:11,266 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:42:12,074 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-10-11 13:42:12,075 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:42:12,076 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.jio.com: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:43:05,786 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:43:05,787 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:43:06,959 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:43:09,319 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:43:13,890 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:43:18,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:43:28,431 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:43:28,469 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-11 13:43:28,671 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-11 13:43:28,679 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:43:29,483 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:43:31,722 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:43:32,397 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-10-11 13:43:32,398 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:43:32,399 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.jio.com: Error code: 400 - {'error': {'message': 'Organization has been restricted. Please reach out to support if you believe this was in error.', 'type': 'invalid_request_error', 'code': 'organization_restricted'}}
+2024-10-11 13:45:12,404 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-11 13:45:14,051 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:45:14,052 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:45:15,019 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:45:16,732 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-11 13:45:17,403 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:45:22,794 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:45:28,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:45:34,011 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:45:34,066 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-11 13:46:55,418 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:46:55,419 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:46:56,394 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:46:58,624 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:47:02,504 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:47:07,874 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:47:16,764 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:47:16,794 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-11 13:47:16,803 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:47:23,213 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-11 13:47:27,565 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-11 13:47:27,569 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_crackyou5@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-11 13:47:56,117 - __main__.LangChainEmailGenerator - INFO - Initialized with GPT-4
+2024-10-11 13:47:56,118 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.jio.com
+2024-10-11 13:47:57,084 - __main__.NavigationScraper - INFO - Found 8 navigation links
+2024-10-11 13:47:59,432 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-11 13:48:07,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:48:12,489 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:48:17,404 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-11 13:48:17,435 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 11:15:16,876 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 11:15:19,641 - __main__.GmailSender - ERROR - Failed to send email to crackyou5@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7205793187csm8452114b3a.61 - gsmtp')
+2024-10-30 11:15:22,364 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 11:15:25,271 - __main__.GmailSender - ERROR - Failed to send email to crackyou5@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7ee1fd6f02esm1543851a12.48 - gsmtp')
+2024-10-30 11:15:53,135 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-30 11:15:53,136 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:15:53,779 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:15:55,390 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:15:55,598 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.862300 seconds
+2024-10-30 11:15:56,605 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 1.628620 seconds
+2024-10-30 11:15:58,344 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Connection error.
+2024-10-30 11:15:58,344 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Connection error.
+2024-10-30 11:16:09,381 - __main__.LangChainEmailGenerator - INFO - Initialized with Llama 3
+2024-10-30 11:16:09,381 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:16:10,084 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:16:11,488 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:16:11,614 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.916043 seconds
+2024-10-30 11:16:12,677 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 1.714306 seconds
+2024-10-30 11:16:14,533 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Connection error.
+2024-10-30 11:16:14,534 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Connection error.
+2024-10-30 11:24:06,208 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 11:24:06,208 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:24:06,776 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:24:08,217 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:24:08,899 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-30 11:24:08,902 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 404 - {'error': {'message': 'The model `llama2-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2024-10-30 11:24:08,903 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Error code: 404 - {'error': {'message': 'The model `llama2-70b-4096` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}
+2024-10-30 11:26:29,839 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq Mixtral
+2024-10-30 11:26:29,840 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:26:30,271 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:26:31,818 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:26:32,908 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:26:34,158 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:26:34,798 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:26:34,799 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2024-10-30 11:26:52,395 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:26:53,039 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:26:53,040 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 30.000000 seconds
+2024-10-30 11:27:24,726 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:27:25,357 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:27:25,358 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 32.000000 seconds
+2024-10-30 11:27:58,824 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:27:59,195 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:27:59,196 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 26.000000 seconds
+2024-10-30 11:28:26,664 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:28:26,686 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 11:29:01,612 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 11:29:04,475 - __main__.GmailSender - ERROR - Failed to send email to akshaykumarbedre.bm@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-210bc012eeasm75712055ad.172 - gsmtp')
+2024-10-30 11:48:11,934 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 11:48:15,530 - __main__.GmailSender - ERROR - Failed to send email to akshaykumarbedre.bm@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-210bbf6d5d9sm74984705ad.75 - gsmtp')
+2024-10-30 11:48:53,026 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 11:48:57,136 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 11:54:32,777 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq Mixtral
+2024-10-30 11:54:32,777 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:54:33,230 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:54:34,519 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:54:35,439 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2024-10-30 11:54:35,440 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:54:35,440 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:56:01,310 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq Mixtral
+2024-10-30 11:56:01,310 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:56:02,183 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:56:03,562 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:56:04,079 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2024-10-30 11:56:04,079 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:56:04,080 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:57:45,829 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq Mixtral
+2024-10-30 11:57:45,829 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:57:46,203 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:57:47,690 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:57:48,402 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2024-10-30 11:57:48,402 - __main__.LangChainEmailGenerator - ERROR - Error generating email: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:57:48,403 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: Error code: 503 - {'error': {'message': 'Service Unavailable', 'type': 'internal_server_error'}}
+2024-10-30 11:59:02,113 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA 3.2
+2024-10-30 11:59:02,114 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 11:59:02,653 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 11:59:04,151 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 11:59:05,556 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:07,123 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:08,721 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:09,360 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:59:09,361 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+2024-10-30 11:59:20,247 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:20,603 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:59:20,604 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2024-10-30 11:59:38,154 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:38,798 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 11:59:38,799 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2024-10-30 11:59:56,401 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:59:56,475 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 11:59:56,475 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: 'subject'
+2024-10-30 12:01:09,191 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA 3.2
+2024-10-30 12:01:09,192 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:01:09,801 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:01:11,078 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:01:12,560 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:14,377 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:15,887 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:16,279 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 12:01:16,280 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2024-10-30 12:01:24,835 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:25,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 12:01:25,360 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 16.000000 seconds
+2024-10-30 12:01:42,963 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:43,282 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 12:01:43,283 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 15.000000 seconds
+2024-10-30 12:01:59,842 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:01:59,902 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:01:59,902 - __main__.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: 'subject'
+2024-10-30 12:02:04,206 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:02:04,207 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:02:04,760 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:02:06,240 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:02:07,722 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:09,201 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:10,800 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:12,401 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:14,002 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:15,358 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:02:15,360 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:02:25,137 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:02:29,589 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:04:13,875 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:04:13,876 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:04:14,278 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:04:15,563 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:04:17,203 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:18,665 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:20,400 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:21,998 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:23,449 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:24,886 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:04:24,888 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:04:57,362 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:04:57,362 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:04:57,790 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:04:59,256 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:05:00,722 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:01,998 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:03,280 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:04,562 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:05,840 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:06,957 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:05:06,959 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:05:06,967 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_akshaykumarbedre.bm@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-30 12:05:11,857 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:05:12,892 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:05:15,806 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:05:16,275 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:05:16,280 - __main__ - CRITICAL - Application failed to start: There are multiple widgets with the same `key='subject_akshaykumarbedre.bm@gmail.com'`.
+
+To fix this, please make sure that the `key` argument is unique for each
+widget you create.
+2024-10-30 12:06:03,240 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:06:03,241 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:06:03,695 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:06:05,259 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:06:07,300 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:08,576 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:09,840 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:11,127 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:12,721 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:13,974 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:06:13,977 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:06:49,320 - __main__.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:06:52,968 - __main__.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:09:40,754 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:09:40,754 - __main__.NavigationScraper - INFO - Scraping navigation links from Balanced performance for general use
+2024-10-30 12:09:40,755 - __main__.NavigationScraper - ERROR - Error scraping Balanced performance for general use: Invalid URL 'Balanced performance for general use': No scheme supplied. Perhaps you meant https://Balanced performance for general use?
+2024-10-30 12:09:40,757 - __main__.ColdEmailAutomation - ERROR - Error processing target Balanced performance for general use: Invalid URL 'Balanced performance for general use': No scheme supplied. Perhaps you meant https://Balanced performance for general use?
+2024-10-30 12:09:43,451 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:09:43,452 - __main__.NavigationScraper - INFO - Scraping navigation links from Balanced performance for general use
+2024-10-30 12:09:43,453 - __main__.NavigationScraper - ERROR - Error scraping Balanced performance for general use: Invalid URL 'Balanced performance for general use': No scheme supplied. Perhaps you meant https://Balanced performance for general use?
+2024-10-30 12:09:43,454 - __main__.ColdEmailAutomation - ERROR - Error processing target Balanced performance for general use: Invalid URL 'Balanced performance for general use': No scheme supplied. Perhaps you meant https://Balanced performance for general use?
+2024-10-30 12:10:24,129 - __main__.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:10:24,129 - __main__.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:10:24,533 - __main__.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:10:25,980 - __main__.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:10:27,614 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:29,361 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:30,962 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:32,565 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:34,136 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:35,761 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:10:35,763 - __main__.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:10:41,355 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 12:10:42,126 - __main__.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 12:10:44,873 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-30 12:10:45,602 - __main__.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-30 12:23:12,803 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2024-10-30 12:26:53,649 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2024-10-30 12:28:00,955 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2024-10-30 12:40:18,948 - langchain_community.utils.user_agent - WARNING - USER_AGENT environment variable not set, consider setting it to identify your requests.
+2024-10-30 12:43:10,670 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2024-10-30 12:43:51,949 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:43:51,950 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:43:52,467 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:43:53,995 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:43:55,823 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:43:57,168 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:43:58,639 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:44:00,240 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:44:01,841 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:44:03,450 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:44:03,452 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:44:03,452 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: 'dict' object has no attribute 'subject'
+2024-10-30 12:45:52,692 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:45:52,692 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:45:53,172 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:45:54,308 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:45:55,759 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:45:57,086 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:45:58,643 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:46:00,240 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:46:01,841 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:46:03,451 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:46:03,452 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:46:03,453 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: 'dict' object has no attribute 'subject'
+2024-10-30 12:47:18,366 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:47:18,366 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:47:18,844 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:47:19,814 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:47:21,350 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:22,802 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:24,819 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:26,323 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:27,922 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:29,522 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:47:29,527 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:47:29,528 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target https://www.infosys.com: 'dict' object has no attribute 'subject'
+2024-10-30 12:50:55,324 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:50:55,325 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:50:55,868 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:50:57,440 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:50:59,292 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:01,017 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:02,961 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:04,882 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:06,803 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:08,554 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:51:08,559 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:51:32,663 - src.services.email_sender.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 12:51:34,049 - src.services.email_sender.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 12:51:36,297 - src.services.email_sender.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-30 12:51:37,444 - src.services.email_sender.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-30 12:57:53,951 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 12:57:53,952 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 12:57:54,409 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 12:57:55,945 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 12:57:57,681 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:57:58,936 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:58:00,189 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:58:01,471 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:58:02,803 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:58:04,063 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:58:04,068 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 12:58:14,876 - src.services.email_sender.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 12:58:18,706 - src.services.email_sender.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 13:00:28,884 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA 3.2
+2024-10-30 13:00:28,884 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 13:00:29,398 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 13:00:30,401 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 13:00:32,243 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:00:33,659 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:00:35,180 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:00:35,626 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 13:00:35,627 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 13.000000 seconds
+2024-10-30 13:00:50,489 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:00:50,899 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 13:00:50,900 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 18.000000 seconds
+2024-10-30 13:01:10,744 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:01:11,154 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-10-30 13:01:11,155 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 17.000000 seconds
+2024-10-30 13:01:30,140 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:01:30,303 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 13:01:59,151 - src.services.email_sender.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 13:02:02,716 - src.services.email_sender.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 13:14:14,366 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA 3.2
+2024-10-30 13:14:14,367 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from sdf 
+2024-10-30 13:14:14,369 - src.services.scraper.NavigationScraper - ERROR - Error scraping sdf : Invalid URL 'sdf ': No scheme supplied. Perhaps you meant https://sdf ?
+2024-10-30 13:14:14,370 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target sdf : Invalid URL 'sdf ': No scheme supplied. Perhaps you meant https://sdf ?
+2024-10-30 13:18:13,783 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA 3.2
+2024-10-30 13:18:13,784 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from sdf 
+2024-10-30 13:18:13,786 - src.services.scraper.NavigationScraper - ERROR - Error scraping sdf : Invalid URL 'sdf ': No scheme supplied. Perhaps you meant https://sdf ?
+2024-10-30 13:18:13,787 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target sdf : Invalid URL 'sdf ': No scheme supplied. Perhaps you meant https://sdf ?
+2024-10-30 13:19:55,825 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 13:19:55,826 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://asd
+2024-10-30 13:19:58,514 - src.services.scraper.NavigationScraper - ERROR - Error scraping https://asd: HTTPSConnectionPool(host='asd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AA703CBD60>: Failed to resolve 'asd' ([Errno 11001] getaddrinfo failed)"))
+2024-10-30 13:20:01,205 - src.services.automation.ColdEmailAutomation - ERROR - Error processing target https://asd: HTTPSConnectionPool(host='asd', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002AA703CA740>: Failed to resolve 'asd' ([Errno 11001] getaddrinfo failed)"))
+2024-10-30 13:21:07,232 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 13:21:07,232 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 13:21:07,780 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 13:21:09,271 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 13:21:11,282 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:12,762 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:14,480 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:16,084 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:17,682 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:19,115 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:19,119 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 13:21:24,640 - src.services.email_sender.GmailSender - INFO - Attempting to send email to asd
+2024-10-30 13:21:27,625 - src.services.email_sender.GmailSender - ERROR - Failed to send email to asd: {'asd': (553, b'5.1.3 The recipient address <asd> is not a valid RFC 5321 address. For more\n5.1.3 information, go to\n5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.1.3 specifications. d2e1a72fcca58-72057932209sm8721861b3a.60 - gsmtp')}
+2024-10-30 13:21:43,560 - src.services.email_sender.GmailSender - INFO - Attempting to send email to asd
+2024-10-30 13:21:46,175 - src.services.email_sender.GmailSender - ERROR - Failed to send email to asd: {'asd': (553, b'5.1.3 The recipient address <asd> is not a valid RFC 5321 address. For more\n5.1.3 information, go to\n5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.1.3 specifications. 41be03b00d2f7-7edc8a3d0cesm8702981a12.80 - gsmtp')}
+2024-10-30 13:21:48,768 - src.services.email_sender.GmailSender - INFO - Attempting to send email to asd
+2024-10-30 13:21:51,901 - src.services.email_sender.GmailSender - ERROR - Failed to send email to asd: {'asd': (553, b'5.1.3 The recipient address <asd> is not a valid RFC 5321 address. For more\n5.1.3 information, go to\n5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.1.3 specifications. d2e1a72fcca58-72057a3f0eesm8687451b3a.208 - gsmtp')}
+2024-10-30 13:21:52,895 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 13:21:52,896 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 13:21:53,354 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 13:21:54,954 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 13:21:56,724 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:58,323 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:21:59,851 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:22:01,445 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:22:03,124 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:22:04,720 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:22:04,725 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 13:22:07,498 - src.services.email_sender.GmailSender - INFO - Attempting to send email to crackyou5@gmail.com
+2024-10-30 13:22:10,960 - src.services.email_sender.GmailSender - INFO - Successfully sent email to crackyou5@gmail.com
+2024-10-30 13:22:22,591 - src.services.email_sender.GmailSender - INFO - Attempting to send email to asd
+2024-10-30 13:22:25,520 - src.services.email_sender.GmailSender - ERROR - Failed to send email to asd: {'asd': (553, b'5.1.3 The recipient address <asd> is not a valid RFC 5321 address. For more\n5.1.3 information, go to\n5.1.3  https://support.google.com/a/answer/3221692 and review RFC 5321\n5.1.3 specifications. d2e1a72fcca58-72094d136c6sm2597735b3a.57 - gsmtp')}
+2024-10-30 13:58:21,266 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 13:58:21,266 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.amazon.com
+2024-10-30 13:58:22,412 - src.services.scraper.NavigationScraper - INFO - Found 0 navigation links
+2024-10-30 13:58:25,766 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 13:58:27,597 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:58:29,197 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:58:29,202 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 13:58:46,998 - src.services.email_sender.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 13:58:50,598 - src.services.email_sender.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 14:01:40,573 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 14:01:40,574 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.amazon.com
+2024-10-30 14:01:41,048 - src.services.scraper.NavigationScraper - INFO - Found 0 navigation links
+2024-10-30 14:01:43,538 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 14:01:45,037 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:01:46,316 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:01:46,320 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 14:01:54,284 - src.services.email_sender.GmailSender - INFO - Attempting to send email to akshaykumarbedre.bm@gmail.com
+2024-10-30 14:01:59,375 - src.services.email_sender.GmailSender - INFO - Successfully sent email to akshaykumarbedre.bm@gmail.com
+2024-10-30 14:02:11,533 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 14:02:11,533 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 14:02:12,154 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
+2024-10-30 14:02:14,228 - src.services.email_generator.LangChainEmailGenerator - INFO - Generating email content
+2024-10-30 14:02:15,804 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:17,219 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:18,670 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:20,238 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:21,834 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:23,437 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:02:23,441 - src.services.email_generator.LangChainEmailGenerator - INFO - Successfully generated email content
+2024-10-30 14:05:13,696 - src.services.email_generator.LangChainEmailGenerator - INFO - Initialized with Groq LLaMA
+2024-10-30 14:05:13,697 - src.services.scraper.NavigationScraper - INFO - Scraping navigation links from https://www.infosys.com
+2024-10-30 14:05:14,156 - src.services.scraper.NavigationScraper - INFO - Found 127 navigation links
