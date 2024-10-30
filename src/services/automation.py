@@ -11,12 +11,13 @@ from src.services.scraper import NavigationScraper
 from src.services.email_generator import LangChainEmailGenerator
 from src.services.email_sender import GmailSender
 from src.config import Config
+import streamlit as st
 
 class ColdEmailAutomation:
     def __init__(self, config: Config):
         self.config = config
         self.scraper = NavigationScraper()
-        self.email_sender = GmailSender(config.SENDER_EMAIL, config.SENDER_PASSWORD)
+        self.email_sender = GmailSender(config.SENDER_EMAIL, st.secrets['SENDER_PASSWORD'])
         self.csv_file = os.path.join("data", "generated_emails.csv")
         self._ensure_data_directory()
         self.logger = logging.getLogger(__name__ + ".ColdEmailAutomation")
